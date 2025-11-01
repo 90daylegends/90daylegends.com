@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 25px;
+}
+
+.warning {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 25px auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  filter: brightness(0.9);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  opacity: 1;
+}
+
+.telegram-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.telegram-btn:hover {
+  background-color: #0099ff;
+}
+
+.description {
+  font-size: 1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 25px auto 0;
+  line-height: 1.5;
+}

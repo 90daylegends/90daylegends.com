@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 15px;
+}
+
+.logo {
+  width: 90px; /* mai mic */
+  margin-bottom: 40px; /* mai mult spațiu jos */
+}
+
+.warning {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  filter: brightness(0.9);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.85;
+  pointer-events: none; /* face mai ușor de apăsat */
+}
+
+.telegram-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 30px;
+  background-color: #005fcc; /* albastru mai închis */
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.telegram-btn:hover {
+  background-color: #007aff;
+}
+
+.description {
+  font-size: 1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 40px auto 0;
+  line-height: 1.5;
+}
+
+.bottom-space {
+  height: 150px; /* spațiu negru extra jos */
+}
